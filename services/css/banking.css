@@ -1,3 +1,4 @@
+/* 
 .parent {
     display: grid;
     grid-template-columns: .4fr .05fr .3fr .5fr;
@@ -23,3 +24,23 @@
     .div15 { grid-area: 7 / 3 / 8 / 4; }
     .div16 { grid-area: 9 / 3 / 10 / 4; }
     .div17 { grid-area: 7 / 4 / 8 / 5; }
+*/
+
+@media (max-width:465px){
+    ul.use-media{
+        position:none;
+        margin-left:5%;
+    }
+}
+@media (min-width:465px) and (max-width:1200px){
+    ul.use-media{
+        position:none;
+        margin-left:15%;
+    }
+}
+@media (min-width:1200px){
+    ul.use-media{
+        position:none;
+        margin-left:18%;
+    }
+}
