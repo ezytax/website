@@ -32,15 +32,15 @@
         margin-left:5%;
     }
 }
-@media (min-width:465px) and (max-width:1200px){
+@media (min-width:465px) and (max-width:768px){
     ul.use-media{
         position:none;
         margin-left:15%;
     }
 }
-@media (min-width:1200px){
+@media (min-width:768px){
     ul.use-media{
         position:none;
-        margin-left:18%;
+        margin-left:25%;
     }
 }
